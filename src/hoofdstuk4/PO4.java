@@ -8,32 +8,32 @@ import java.applet.*;
     public void init (){}
     public void paint (Graphics g){
 
-        //Lijn
+        //Lijn!
         g.drawLine (90,120,290,120);
         g.drawString("Lijn", 180, 150);
 
-        //Rechthoek
+        //Rechthoek!
         g.drawRect(90,170,200,120);
         g.drawString("Rechthoek",157,310);
 
-        //Afgeronde rechthoek
+        //Afgeronde rechthoek!
         g.drawRoundRect(90,330,200,120,30,30);
         g.drawString("Afgeronde rechthoek",130,470);
 
-        //Gevulde rechthoek met ovaal
+        //Gevulde rechthoek met ovaal!
         g.setColor(Color.magenta);
         g.fillRect(310, 170, 200, 120);
         g.setColor(Color.black);
         g.drawOval(310, 170 , 200, 120);
         g.drawString("Gevulde rechthoek met ovaal",330, 305);
 
-        //Gevulde Ovaal
+        //Gevulde Ovaal!
         g.setColor(Color.magenta);
         g.fillOval(310, 330, 200, 120);
         g.setColor(Color.black);
         g.drawString("Gevulde ovaal",365 ,469);
 
-        //Taartpunt met ovaal eromheen
+        //Taartpunt met ovaal eromheen!
         g.setColor(Color.black);
         g.drawArc(530, 170, 150, 125, 0, 360);
         g.setColor(Color.magenta);
