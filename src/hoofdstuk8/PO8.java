@@ -12,10 +12,7 @@ public class PO8 extends Applet {
     Button plus;
     Button min;
 
-    int keer1;
-    int delen1;
-    int min1;
-    int plus1;
+
     int totaal;
     int a;
     int b;
